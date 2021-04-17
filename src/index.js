@@ -1,17 +1,37 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Wheel from './components/wheel';
+import './styles.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export function App () {
+   const [yacine, setYacine] = useState(false)
+  
+  const names = ['Clemens', 'Stavros', 'Utsavi', 'Robert', 'Said', 'Carole', 'Arno', 'Said', 'Aryan', 'Dipali', 'Ömer', 'Brian', 'Joey', 'Jasmin', 'Safi', 'Matthias'];
+   
+    return (
+      <div className="App">
+        <h1>Yacine's Wheel of Doom</h1>
+        <button>Add Yacine</button>
+        <Wheel items={names} />
+      </div>
+    );
+  
+}
+/* export class App extends React.Component {
+  constructor() {
+    super();
+    this.places = ['Clemens', 'Stavros', 'Utsavi', 'Robert', 'Said', 'Carole', 'Arno', 'Said', 'Aryan', 'Dipali', 'Ömer', 'Brian', 'Joey', 'Jasmin', 'Safi', 'Matthias'];
+  }
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  render() {
+    return (
+      <div className="App">
+        <h1>Yacine's Wheel of Doom</h1>
+        <Wheel items={this.places} />
+      </div>
+    );
+  }
+} */
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App />, rootElement);
