@@ -32,7 +32,7 @@ export function App() {
   return (
     <div className="App">
       <h1>Yacine's Wheel of Doom</h1>
-      <input type="text" size="20" placeholder="Add or Remove a Name" onKeyUp={addRemove} />
+      <input type="text" size="21" placeholder="Add or Remove a Name" onKeyUp={addRemove} />
       <Wheel items={names} />
     </div>
   );
