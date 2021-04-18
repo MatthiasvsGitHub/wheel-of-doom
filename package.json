@@ -1,8 +1,9 @@
 {
   "homepage": "https://matthiasvsgithub.github.io/wheel-of-doom/",
   "name": "wheel-of-doom",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
+  "homepage": "https://matthiasvsgithub.github.io/wheel-of-doom/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
