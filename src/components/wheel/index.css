@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --wheel-font: 'Lato', 'Quicksand', sans-serif;
   --wheel-size: 750px;
   --wheel-slice-spacing: 23px;
@@ -11,8 +11,8 @@
   --selected-item: 0;
   --nb-turn: 2;
   --spinning-duration: 6s;
-  --reset-duration: 0s;
-} */
+  --reset-duration: 0.01s;
+}
 
 /* Outer Circle */
 .wheel-container {
