@@ -4,7 +4,7 @@ import Wheel from './components/wheel';
 import './styles.css';
 
 export function App() {
-  const [names, setNames] = useState(['Clemens', 'Stavros', 'Utsavi', 'Robert', 'Said', 'Carole', 'Arno', 'Said', 'Aryan', 'Dipali', 'Ömer', 'Brian', 'Joey', 'Jasmin', 'Safi', 'Matthias'])
+  const [names, setNames] = useState(['Clemens', 'Stavros', 'Utsavi', 'Robert', 'Said', 'Carole', 'Arno', 'Aryan', 'Dipali', 'Ömer', 'Brian', 'Joey', 'Jasmin', 'Safi', 'Matthias'])
 
   const addRemove = (event) => {
     if (event.key === "Enter" && event.target.value !== "") {
