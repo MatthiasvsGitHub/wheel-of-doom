@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wheel-of-doom/static/css/main.365bd459.chunk.css",
+    "main.css": "/wheel-of-doom/static/css/main.4cc62476.chunk.css",
     "main.js": "/wheel-of-doom/static/js/main.bb4e4d1a.chunk.js",
     "main.js.map": "/wheel-of-doom/static/js/main.bb4e4d1a.chunk.js.map",
     "runtime-main.js": "/wheel-of-doom/static/js/runtime-main.6d5f7468.js",
@@ -8,13 +8,13 @@
     "static/js/2.de345d23.chunk.js": "/wheel-of-doom/static/js/2.de345d23.chunk.js",
     "static/js/2.de345d23.chunk.js.map": "/wheel-of-doom/static/js/2.de345d23.chunk.js.map",
     "index.html": "/wheel-of-doom/index.html",
-    "static/css/main.365bd459.chunk.css.map": "/wheel-of-doom/static/css/main.365bd459.chunk.css.map",
+    "static/css/main.4cc62476.chunk.css.map": "/wheel-of-doom/static/css/main.4cc62476.chunk.css.map",
     "static/js/2.de345d23.chunk.js.LICENSE.txt": "/wheel-of-doom/static/js/2.de345d23.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6d5f7468.js",
     "static/js/2.de345d23.chunk.js",
-    "static/css/main.365bd459.chunk.css",
+    "static/css/main.4cc62476.chunk.css",
     "static/js/main.bb4e4d1a.chunk.js"
   ]
 }
