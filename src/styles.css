@@ -8,6 +8,7 @@
   text-align: center;
   background: var(--neutral-color);
   user-select: none;
+  overflow: hidden;
 }
 
 input {

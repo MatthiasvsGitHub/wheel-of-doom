@@ -10,7 +10,7 @@
     --item-nb: 0;
     --selected-item: 0;
     --nb-turn: 2;
-    --spinning-duration: 0.1s;
+    --spinning-duration: 6s;
     --reset-duration: 0s;
   }
   
