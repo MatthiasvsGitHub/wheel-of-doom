@@ -15,15 +15,15 @@ export function App() {
             newNames.splice(i, 1);
             setNames(newNames)
             i--;
-            alert(`${event.target.value} has been removed!`)
+            alert(`${event.target.value} has been removed from the Wheel of Doom!`)
             event.currentTarget.value = "";
           }
         }
       }
       else {
-        newNames.unshift(event.target.value)
+        newNames.push(event.target.value)
         setNames(newNames)
-        alert(`${event.target.value} has been added!`)
+        alert(`${event.target.value} has been added to the Wheel of Doom!`)
         event.currentTarget.value = "";
       }
     }

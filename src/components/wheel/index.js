@@ -20,9 +20,12 @@ export default class Wheel extends React.Component {
       this.setState({ selectedItem });
     } else {
       this.setState({ selectedItem: null });
-      setTimeout(this.selectItem, 100);
+      setTimeout(this.selectItem, 10);
     }
   }
+/*   displayWinner() {
+    console.log(`The Winner is: ${selectedItem}`)
+  } */
 
   render() {
     const { selectedItem } = this.state;
