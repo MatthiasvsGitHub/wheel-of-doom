@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Wheel from './components/wheel';
 import './styles.css';
@@ -29,6 +29,11 @@ export function App() {
     }
 
   }
+
+  useEffect(() => {
+    document.title = "Wheel of Doom"
+  }, [])
+
   return (
     <div className="App">
       <h1>Yacine's Wheel of Doom</h1>
@@ -38,21 +43,6 @@ export function App() {
   );
 
 }
-/* export class App extends React.Component {
-  constructor() {
-    super();
-    this.places = ['Clemens', 'Stavros', 'Utsavi', 'Robert', 'Said', 'Carole', 'Arno', 'Said', 'Aryan', 'Dipali', 'Ömer', 'Brian', 'Joey', 'Jasmin', 'Safi', 'Matthias'];
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <h1>Yacine's Wheel of Doom</h1>
-        <Wheel items={this.places} />
-      </div>
-    );
-  }
-} */
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
